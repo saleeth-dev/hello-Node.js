@@ -1,0 +1,27 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "My node Api",
+  "homepage": "https://github.com/saleeth-dev/hello-Node.js#readme",
+  "bugs": {
+    "url": "https://github.com/saleeth-dev/hello-Node.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saleeth-dev/hello-Node.js.git"
+  },
+  "license": "ISC",
+  "author": "Mahammed Saleeth",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
